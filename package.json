@@ -4,8 +4,9 @@
   "description": "- Simple proof-of-work algorithm\r - Verify blockchain (to prevent tampering)\r - Generate wallet (private/public key)\r - Sign transactions",
   "main": "index.js",
   "dependencies": {
-    "crypto-js": "^4.1.1",
     "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "debug": "^4.3.2",
     "elliptic": "^6.5.4"
   },
   "devDependencies": {},
