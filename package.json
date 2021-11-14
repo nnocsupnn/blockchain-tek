@@ -1,0 +1,26 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "- Simple proof-of-work algorithm\r - Verify blockchain (to prevent tampering)\r - Generate wallet (private/public key)\r - Sign transactions",
+  "main": "index.js",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "crypto": "^1.0.1",
+    "elliptic": "^6.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nincas/blockchain-tek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nincas/blockchain-tek/issues"
+  },
+  "homepage": "https://github.com/nincas/blockchain-tek#readme"
+}
